@@ -1,96 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2022-01-09T13:10:37.040Z" agent="5.0 (Windows)" etag="rrgKLlQ8aIA76og2AqPO" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-22T02:45:41.015Z" agent="5.0 (Windows)" etag="q5lNWAX_czgVe9mKJYSH" version="15.4.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="846" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1nmihoqW4mfk5_uz0Vci-0" target="1nmihoqW4mfk5_uz0Vci-1">
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-2" value="successfully get lock " style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bmr0EcffvyPHBjdKjxe1-0" target="Bmr0EcffvyPHBjdKjxe1-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-0" value="create local folder, git clone oneux_resource_configs " style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="511" y="80" width="169" height="55" as="geometry" />
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-0" value="get lock for the vcenter from mongo" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="680" width="169" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1nmihoqW4mfk5_uz0Vci-1" target="1nmihoqW4mfk5_uz0Vci-4">
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bmr0EcffvyPHBjdKjxe1-1" target="Bmr0EcffvyPHBjdKjxe1-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-1" value="create local folder, git clone app TF repo " style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="511" y="165" width="169" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1nmihoqW4mfk5_uz0Vci-2" target="1nmihoqW4mfk5_uz0Vci-0">
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-22" value="if total vm &amp;gt; 5 " style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bmr0EcffvyPHBjdKjxe1-1" target="Bmr0EcffvyPHBjdKjxe1-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-2" value="read app-resource hierarchy from context" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="300" y="80" width="169" height="55" as="geometry" />
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-1" value="add oneux_vm_cloning_paralle.running_vm_cloing" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="770" width="169" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1nmihoqW4mfk5_uz0Vci-3" target="1nmihoqW4mfk5_uz0Vci-5">
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bmr0EcffvyPHBjdKjxe1-4" target="Bmr0EcffvyPHBjdKjxe1-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-3" value="generate TF file from&amp;nbsp; oneux_resource_config.template" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="511" y="340" width="169" height="55" as="geometry" />
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-4" value="move new vms tf config files to create-vm-folder" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="600" width="169" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1nmihoqW4mfk5_uz0Vci-4" target="1nmihoqW4mfk5_uz0Vci-3">
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bmr0EcffvyPHBjdKjxe1-6" target="Bmr0EcffvyPHBjdKjxe1-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-4" value="create new git branch in app TF repo" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="511" y="250" width="169" height="55" as="geometry" />
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-6" value="release lock" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="850" width="169" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1nmihoqW4mfk5_uz0Vci-5" target="1nmihoqW4mfk5_uz0Vci-7">
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bmr0EcffvyPHBjdKjxe1-8" target="Bmr0EcffvyPHBjdKjxe1-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-5" value="git commit" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="511" y="410" width="169" height="55" as="geometry" />
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-8" value="copy tf config files to executing folder " style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="920" width="169" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1nmihoqW4mfk5_uz0Vci-7" target="1nmihoqW4mfk5_uz0Vci-14">
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bmr0EcffvyPHBjdKjxe1-10" target="Bmr0EcffvyPHBjdKjxe1-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-7" value="git push" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="511" y="480" width="169" height="55" as="geometry" />
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-10" value="run tf" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="990" width="169" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1nmihoqW4mfk5_uz0Vci-14" target="1nmihoqW4mfk5_uz0Vci-16">
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bmr0EcffvyPHBjdKjxe1-12" target="Bmr0EcffvyPHBjdKjxe1-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-14" value="run terraform init" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="750" y="80" width="169" height="55" as="geometry" />
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-12" value="get lock for the vcenter from mongo" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="1070" width="169" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1nmihoqW4mfk5_uz0Vci-15" target="1nmihoqW4mfk5_uz0Vci-20">
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bmr0EcffvyPHBjdKjxe1-14" target="Bmr0EcffvyPHBjdKjxe1-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-26" value="success" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1nmihoqW4mfk5_uz0Vci-21">
-          <mxGeometry x="0.0788" y="2" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-14" value="subtract oneux_vm_cloning_paralle.running_vm_cloing" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="1160" width="169" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.592;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1nmihoqW4mfk5_uz0Vci-15" target="1nmihoqW4mfk5_uz0Vci-23">
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-19" value="release lock" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="1240" width="169" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bmr0EcffvyPHBjdKjxe1-21" target="Bmr0EcffvyPHBjdKjxe1-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-28" value="failed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1nmihoqW4mfk5_uz0Vci-27">
-          <mxGeometry x="0.1664" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-21" value="release lock" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="770" width="169" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-15" value="run terrform apply" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="750" y="260" width="169" height="55" as="geometry" />
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-24" value="if total vm &amp;lt;= 5 " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="239.5" y="825" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1nmihoqW4mfk5_uz0Vci-16" target="1nmihoqW4mfk5_uz0Vci-15">
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bmr0EcffvyPHBjdKjxe1-25" target="Bmr0EcffvyPHBjdKjxe1-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-16" value="run terraform plan" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="750" y="170" width="169" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1nmihoqW4mfk5_uz0Vci-20" target="1nmihoqW4mfk5_uz0Vci-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-20" value="create pull request" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="980" y="80" width="169" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1nmihoqW4mfk5_uz0Vci-22" target="1nmihoqW4mfk5_uz0Vci-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-22" value="merge pull request " style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="980" y="170" width="169" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="1nmihoqW4mfk5_uz0Vci-23" value="delete branch" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="980" y="260" width="169" height="55" as="geometry" />
+        <mxCell id="Bmr0EcffvyPHBjdKjxe1-25" value="sleep 10s" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="680" width="160" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
